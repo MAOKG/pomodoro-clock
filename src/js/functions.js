@@ -127,6 +127,8 @@ $(() => {
       isPaused = false;
       isSession = true;
       $('.mode').text('Session');
+      $('.timer').text(sessionL);
+      fill.style.background = '#99FF33';
       $('#P').text('PAUSE');
       $('#P, #R').fadeOut('slow', () => {
         $('.fa-minus, .fa-plus').fadeIn('slow');
