@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109042105-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109042105-1');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Pomodoro style time management tool" >
+  <meta name="keywords" content="pomodoro, clock, time management">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Pomodoro Clock</title>
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lobster|Roboto'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+
+
+</head>
+
+<body>
+  <div class='home-wrap'>
+    <div class='site-content'>
+      <div class='container'>
+        <h1>Pomodoro Clock</h1>
+        <div class='input'>
+          <div class='break'>
+            <p>BREAK LENGTH</p>
+            <p><i class="fa fa-minus" aria-hidden="true"></i><span id='breakL'>5</span><i class="fa fa-plus" aria-hidden="true"></i></p>
+          </div>
+          <div class='session'>
+            <p>SESSION LENGTH</p>
+            <p><i class="fa fa-minus" aria-hidden="true"></i><span id='sessionL'>25</span><i class="fa fa-plus" aria-hidden="true"></i></p>
+          </div>
+        </div>
+        <div class='display'>
+          <div class='water'>
+            <div id='fill'></div>
+            <p class='mode'>Session</p>
+            <p class='timer'>25</p>
+          </div>
+        </div>
+        <div class='buttons'>
+          <button id='S' class='start'>START</button>
+          <button id='P' class='pause'>PAUSE</button>
+          <button id='R' class='reset'>RESET</button>
+        </div>
+      </div>
+    </div>
+    <div class='site-footer'>
+      <footer>Made with &#9829 by <a href="https://www.maosen-chen.me" target='_blank'>Maosen Chen</a> | <a href="https://github.com/MAOKG/tic-tac-toe-game" target='_blank'>Github Respository</a></footer>
+    </div>
+  </div>
+
+</body>
+</html>
